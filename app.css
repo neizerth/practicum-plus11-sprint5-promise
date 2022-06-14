@@ -1,0 +1,16 @@
+.main_loading {
+    display: none;
+}
+
+.loader {
+    background: url(loading.webp) center center no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    display: none;
+}
+
+.loader_active {
+    display: block;
+}
